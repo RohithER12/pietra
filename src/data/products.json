@@ -1,0 +1,177 @@
+{
+    "marble": {
+        "path": "public/products/marble",
+        "id": "marble",
+        "series": {
+            "LINEN SERIES": {
+                "path": "public/products/marble/LINEN SERIES",
+                "products": [
+                    "LUSTRA IVORY",
+                    "LUSTRA BEIGE",
+                    "CEMENTA LUX"
+                ]
+            },
+            "BIANCO SERIES": {
+                "path": "public/products/marble/BIANCO SERIES",
+                "products": [
+                    "ALPINE PEARL",
+                    "BIANCO HALO"
+                ]
+            },
+            "CARTIER SERIES": {
+                "path": "public/products/marble/CARTIER SERIES",
+                "products": [
+                    "VINTESSA BEIGE",
+                    "VELORA MIST",
+                    "SAHARA BEIGE",
+                    "ROYAL SMOKE",
+                    "SILKEN GREY"
+                ]
+            },
+            "LUX CARTIER SERIES": {
+                "path": "public/products/marble/LUX CARTIER SERIES",
+                "products": [
+                    "ARCTIC BLANK",
+                    "FROST WHALE"
+                ]
+            }
+        }
+    },
+    "terrazzo": {
+        "id": "granite",
+        "path":"/public/products/terrazo",
+        "series": {
+            "TERRAZO ELEGANTA SERIES": {
+                "path": "public/products/terrazzo/TERRAZO ELEGANTA SERIES",
+                "products": [
+                    "FROSTELLE",
+                    "CIMENTIQUE",
+                    "ELEGENTE BIANCO"
+                ]
+            },
+            "TERRAZO LUXIA SERIES": {
+                "path": "public/products/terrazzo/TERRAZO LUXIA SERIES",
+                "products": [
+                    "SNOWCRETE",
+                    "CARAMEL GRAIN"
+                ]
+            },
+            "TERRAZO REGALE SERIES": {
+                "path": "public/products/terrazzo/TERRAZO REGALE SERIES",
+                "products": [
+                    "MARVELLA",
+                    "PETRALUX",
+                    "SILVERA EMERALD"
+                ]
+            },
+            "HARSBURG SERIES": {
+                "path": "public/products/terrazzo/HARSBURG SERIES",
+                "products": [
+                    "ALMOND SHELL",
+                    "DESERT HAZEL",
+                    "EMBER BRONZE",
+                    "FROSTED BISCOTTI",
+                    "MOONSTONE",
+                    "SUNMETAL",
+                    "VESPARO GREY"
+                ]
+            }
+        }
+    },
+    "quartz": {
+        "path": "public/products/quartz",
+        "id": "quartz",
+        "series": {
+            "CENTODEICI SERIES": {
+                "path": "public/products/quartz/CENTODEICI SERIES",
+                "products": [
+                    "COCOA FOSSIL",
+                    "URBAN LUX",
+                    "FROSTED SEAL",
+                    "ARCTIC SUN",
+                    "CRYSTON MARBLE",
+                    "STELLAR MARBLE",
+                    "DESERT BLOOM",
+                    "IMPERIAL FLAME",
+                    "MISTIC SMOKE",
+                    "OCEAN NIGHT",
+                    "OCEAN MIST",
+                    "PEARL DRIFT"
+                ]
+            },
+            "VANQUISH SERIES": {
+                "path": "public/products/quartz/VANQUISH SERIES",
+                "products": [
+                    "REGAL DUNE",
+                    "IVORY STORM",
+                    "OBSIDIAN VIEN",
+                    "SNOW MUSE",
+                    "RAVEN MIST",
+                    "VELVET AURA",
+                    "OBSIDIAN WAVE",
+                    "TUSCAN DRIFT",
+                    "SILVER CLOUD"
+                ]
+            },
+            "BOLIDE SERIES": {
+                "path": "public/products/quartz/BOLIDE SERIES",
+                "products": [
+                    "SANDY COSMOS",
+                    "STARRY NIGHT",
+                    "NEBULA SHADOW",
+                    "COSMIC FROST"
+                ]
+            },
+            "MISTRAL SERIES": {
+                "path": "public/products/quartz/MISTRAL SERIES",
+                "products": [
+                    "ARCTIC SHARD",
+                    "VANNILA GLAZE"
+                ]
+            },
+            "LUMINAX SERIES": {
+                "path": "public/products/quartz/LUMINAX SERIES",
+                "products": [
+                    "DYNASTY VIEN",
+                    "EMARALD REIGN",
+                    "HEAVENLY GLOW",
+                    "IMPERIAL WAVE",
+                    "SOLAR FAME",
+                    "VOLCANIQUE GOLD"
+                ]
+            },
+            "DIVO SERIES": {
+                "path": "public/products/quartz/DIVO SERIES",
+                "products": [
+                    "STEAL SPARK",
+                    "INDUSTRIAL ASH",
+                    "URBAN MOCHA",
+                    "MIDNIGHT STONE"
+                ]
+            },
+            "TOURBILLION SERIES": {
+                "path": "public/products/quartz/TOURBILLION SERIES",
+                "products": [
+                    "SUNCRUST",
+                    "GERY MONARCH",
+                    "AMBER VIEN",
+                    "ASHEN HORIZON",
+                    "GOLDEN HAVEN",
+                    "COCOA TERRAIN",
+                    "LORENZIA",
+                    "FOGCREST",
+                    "FROST HALO",
+                    "LUNARA",
+                    "AURIC EMBER",
+                    "SKY VEIL",
+                    "EMERALD VALOR",
+                    "SIERRA GLOW",
+                    "MIDNIGHT GROVE",
+                    "ATTICA MIRAGE",
+                    "SAVANNAH EMBER",
+                    "VINTARO"
+                ]
+            }
+        }
+    }
+}

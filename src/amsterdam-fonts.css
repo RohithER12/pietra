@@ -1,0 +1,57 @@
+
+/* Amsterdam Font Faces */
+@font-face {
+  font-family: 'Amsterdam One';
+  src: url('/fonts/AmsterdamOne-eZ12l.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amsterdam One Slant';
+  src: url('/fonts/AmsterdamOneSlant-0WglP.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Amsterdam Two';
+  src: url('/fonts/AmsterdamTwoTtf-OVMEe.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amsterdam Two Slant';
+  src: url('/fonts/AmsterdamTwoSlantTtf-EapXj.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Amsterdam Three Slant';
+  src: url('/fonts/AmsterdamThreeSlant-axaym.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Amsterdam Three Slant Ttf';
+  src: url('/fonts/AmsterdamThreeSlantTtf-WyJVG.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Amsterdam Four';
+  src: url('/fonts/AmsterdamFourTtf-owMx4.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amsterdam Four Slant';
+  src: url('/fonts/AmsterdamFourSlantTtf-4B4yl.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+

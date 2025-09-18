@@ -1,0 +1,134 @@
+@layer components, base, components;
+@import 'tailwindcss';
+@import './amsterdam-fonts.css';
+
+@plugin 'tailwindcss-animate';
+
+@theme {
+    --color-primary: #B8860B;     /* Dark Gold */
+    --color-foreground: #1C1C1C;  /* Rich Black */
+    --color-accent: #D4AF37;      /* Metallic Gold */
+    --color-background: #F5F5F5;  /* Off White */
+    --color-surface: #E8DFD8;     /* Light Surface */
+
+    /* --font-sans: "Inter", sans-serif; */
+    --font-sans: "Inter", sans-serif;
+    --font-playfair: "Amsterdam Two Slant","Playfair Display", "Inter", sans-serif;
+    /* font-feature-settings: 'liga' 1, 'calt' 1; fix for Chrome */
+}
+
+/* @supports (font-variation-settings: normal) {
+    @theme { 
+        --font-sans: InterVariable, sans-serif;
+    }
+} */
+
+@layer components {
+    .app-container {
+        @apply max-w-7xl px-4 sm:px-6 lg:px-8;
+    }
+
+    .navbar-transition{
+        @apply bg-white text-foreground;
+    }
+
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.scrollbar-track-hide{
+    scrollbar-color: grey transparent;
+}
+
+
+/* Playfair Display - Normal Weights */
+.font-playfair-400 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-playfair-500 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-playfair-600 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font-playfair-700 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-playfair-800 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-playfair-900 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Playfair Display - Italic Weights */
+.font-playfair-italic-400 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font-playfair-italic-500 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.font-playfair-italic-600 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.font-playfair-italic-700 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.font-playfair-italic-800 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.font-playfair-italic-900 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.font-amsterdam-two {
+  font-family: 'Amsterdam Two', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-amsterdam-one {
+  font-family: 'Amsterdam One', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
