@@ -119,6 +119,10 @@ export default function ProductsPage() {
                                             onClick={() =>
                                                 navigate(`/products/${product}?category=${category}&series=${seriesName}`)
                                             }
+                                            // Enable lens with custom settings
+                                            enableLens={true}
+                                            lensZoom={2.5}
+                                            lensSize={120}
                                             {...getCompareProps(product, getProductImagePath(category, product, seriesName), category, seriesName)}
                                         />
                                     ))}
