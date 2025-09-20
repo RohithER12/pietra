@@ -1,7 +1,7 @@
-import { useRef } from 'react'; // Add useRef import
+import { useRef } from 'react';
 import { Card } from '../ui/card';
 import { useNavigate } from 'react-router';
-import { LucideArrowRight, LucideArrowLeft } from 'lucide-react'; // Add LucideArrowLeft for Previous button
+import { LucideArrowRight, LucideArrowLeft } from 'lucide-react';
 import { useCompare } from '../common/CompareContext';
 
 const products = [
@@ -20,10 +20,10 @@ const products = [
 export const ProductShowcase = () => {
     const navigate = useNavigate();
     const { selected, addProduct, removeProduct, isSelected } = useCompare();
-    const scrollContainerRef = useRef(null); // Create a ref for the scrollable container
+    const scrollContainerRef = useRef<HTMLDivElement>(null); // Specify HTMLDivElement type
 
     // Helper to get Card props for compare
-    const getCompareProps = (product) => ({
+    const getCompareProps = (product: { id: number; title: string; category: string; image: string }) => ({
         isCompared: isSelected(product.title.toUpperCase()),
         onCompareToggle: () => {
             const id = product.title.toUpperCase();
@@ -100,14 +100,14 @@ export const ProductShowcase = () => {
                 <div className="w-full flex justify-end gap-x-5 mt-5">
                     <button
                         onClick={scrollLeft}
-                        className="bg-[#f8f6f3] text-black p-4 hover:bg-primary/80 transition flex items-center justify-center"
+                        className="bg-[#f8f6f3] text-black p-4 hover:bg-black/20 transition flex items-center justify-center"
                         aria-label="Previous products"
                     >
                         <LucideArrowLeft className="w-4 h-4" />
                     </button>
                     <button
                         onClick={scrollRight}
-                        className="bg-[#f8f6f3] text-black p-4 hover:bg-primary/80 transition flex items-center justify-center"
+                        className="bg-[#f8f6f3] text-black p-4 hover:bg-black/20 transition flex items-center justify-center"
                         aria-label="Next products"
                     >
                         <LucideArrowRight className="w-4 h-4" />

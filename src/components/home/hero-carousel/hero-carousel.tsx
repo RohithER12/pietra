@@ -71,7 +71,7 @@ export const HeroCarousel = () => {
             ))}
 
             {/* Glassmorphic Index Bar (full width, small height, flex row, no rounded corners) */}
-            <div className="absolute bottom-0 left-0 z-30 w-full flex justify-center items-end px-0 pb-0">
+            <div className="absolute bottom-0 left-0 z-30 w-full flex justify-center items-end px-0 pb-0 ">
                 <div className="backdrop-blur-md bg-white/20 border-t divide-x-[1px] divide-white/40 border-white/20 shadow-lg flex flex-row w-full max-w-full h-20 overflow-x-auto scrollbar-hide md:overflow-x-visible">
                     {slides.map((slide, idx) => (
                         <button
