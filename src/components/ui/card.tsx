@@ -31,16 +31,16 @@ export const Card = ({
                         e.stopPropagation();
                         onCompareToggle?.();
                     }}
-                    className="flex items-center gap-2 text-sm text-foreground/70 bg-gray-300/30 p-2 hover:text-primary transition-colors"
+                    className="flex items-center gap-2 text-sm text-foreground/70 bg-gray-800/30 p-2 hover:text-primary transition-colors"
                 >
-                    <div className={`w-5 h-5 border border-gray-400 ${isCompared ? 'bg-primary border-primary' : 'border-foreground/20'} flex items-center justify-center`}>
+                    <div className={`w-5 h-5 border border-gray-400 ${isCompared ? 'bg-primary border-primary' : 'border-white/50'} flex items-center justify-center`}>
                         {isCompared && (
                             <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                             </svg>
                         )}
                     </div>
-                    Compare
+                    <p className="text-white">Compare</p>
                 </button>
             </div>
 
@@ -55,7 +55,7 @@ export const Card = ({
 
             {/* Content */}
             <div className="p-4">
-                <h3 className="text-lg font-medium text-foreground">
+                <h3 className="text-base sm:text-xl lowercase font-amsterdam-one font-light text-foreground">
                     {title}
                 </h3>
                 {category && (

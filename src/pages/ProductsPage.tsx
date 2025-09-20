@@ -71,7 +71,7 @@ export default function ProductsPage() {
         <div className="w-full flex flex-col items-center px-4 sm:px-6 lg:px-8 py-10">
 
             {/* Category Selector */}
-            <div className="w-full max-w-7xl mb-16 mt-20">
+            <div className="w-full max-w-7xl mb-16 mt-20 font-amsterdam-one">
                 <div className="flex flex-row gap-3 sm:gap-6 items-center justify-center px-4">
                     {categories.map((cat) => (
                         <div
@@ -103,12 +103,12 @@ export default function ProductsPage() {
             </div>
 
             {/* Products Display */}
-            <div className="max-w-7xl w-full">
+            <div className="max-w-7xl w-full ">
                 {
                     <>
                         {Object.entries(categoryData.series).map(([seriesName, seriesData]) => (
                             <div key={seriesName} className="mb-12">
-                                <h2 className="text-2xl font-bold mb-6">{seriesName}</h2>
+                                <h2 className="text-2xl font-bold mb-6 ">{seriesName}</h2>
                                 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                                     {seriesData.products.map((product: string) => (
                                         <Card

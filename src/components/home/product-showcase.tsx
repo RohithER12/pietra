@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { useRef } from 'react'; // Add useRef import
 import { Card } from '../ui/card';
 import { useNavigate } from 'react-router';
-import { LucideArrowRight } from 'lucide-react';
+import { LucideArrowRight, LucideArrowLeft } from 'lucide-react'; // Add LucideArrowLeft for Previous button
 import { useCompare } from '../common/CompareContext';
 
 const products = [
@@ -20,6 +20,8 @@ const products = [
 export const ProductShowcase = () => {
     const navigate = useNavigate();
     const { selected, addProduct, removeProduct, isSelected } = useCompare();
+    const scrollContainerRef = useRef(null); // Create a ref for the scrollable container
+
     // Helper to get Card props for compare
     const getCompareProps = (product) => ({
         isCompared: isSelected(product.title.toUpperCase()),
@@ -38,17 +40,36 @@ export const ProductShowcase = () => {
         },
     });
 
+    // Scroll functions
+    const scrollLeft = () => {
+        if (scrollContainerRef.current) {
+            scrollContainerRef.current.scrollBy({
+                left: -280, // Adjust based on card width (e.g., 280px for lg screens)
+                behavior: 'smooth',
+            });
+        }
+    };
+
+    const scrollRight = () => {
+        if (scrollContainerRef.current) {
+            scrollContainerRef.current.scrollBy({
+                left: 280, // Adjust based on card width
+                behavior: 'smooth',
+            });
+        }
+    };
+
     return (
         <section className="py-24 w-full flex justify-center">
             <div className="w-full app-container px-4 sm:px-6 lg:px-8">
                 {/* Header */}
                 <div className="mb-12 text-center md:text-left">
-                    <h2 className="text-3xl font-playfair mb-10 sm:mb-6  ">Latest Additions</h2>
+                    <h2 className="text-3xl font-playfair mb-10 sm:mb-6">Latest Additions</h2>
                     <p className="text-foreground/60">Discover our newest surface innovations</p>
                 </div>
 
                 {/* Scrollable Row */}
-                <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-hide">
+                <div className="overflow-x-auto hide-scrollbar" ref={scrollContainerRef}>
                     <div className="flex gap-4 w-max">
                         {products.map((product) => (
                             <div key={product.id} className="flex-shrink-0 w-[180px] sm:w-[220px] md:w-[260px] lg:w-[280px]">
@@ -73,6 +94,24 @@ export const ProductShowcase = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                {/* Navigation Buttons */}
+                <div className="w-full flex justify-end gap-x-5 mt-5">
+                    <button
+                        onClick={scrollLeft}
+                        className="bg-[#f8f6f3] text-black p-4 hover:bg-primary/80 transition flex items-center justify-center"
+                        aria-label="Previous products"
+                    >
+                        <LucideArrowLeft className="w-4 h-4" />
+                    </button>
+                    <button
+                        onClick={scrollRight}
+                        className="bg-[#f8f6f3] text-black p-4 hover:bg-primary/80 transition flex items-center justify-center"
+                        aria-label="Next products"
+                    >
+                        <LucideArrowRight className="w-4 h-4" />
+                    </button>
                 </div>
             </div>
         </section>

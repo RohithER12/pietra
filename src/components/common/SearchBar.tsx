@@ -119,7 +119,7 @@ export const SearchBar = ({ isFocused, setIsFocused }: { isFocused: boolean, set
 
     return (
         <div ref={searchRef} className={`relative ${isFocused ? "max-w-72 w-full px-3 md:w-auto" : ""}  justify-end`}>
-            <div className={`flex items-center md:border justify-center px-2 space-x-0 transition-all duration-300 ${isFocused ? 'md:w-auto w-full border' : 'w-fit md:w-auto'}`}>
+            <div className={`flex items-center md:border justify-center px-2 transition-all duration-300 ${isFocused ? 'md:w-auto w-full border space-x-0' : 'w-fit md:w-auto space-x-3'}`}>
                 <SearchIcon size={20} className={`flex-shrink-0 cursor-pointer`}
                     onClick={() => {
                         setIsFocused(true);
