@@ -44,7 +44,7 @@ export const ProductShowcase = () => {
     const scrollLeft = () => {
         if (scrollContainerRef.current) {
             scrollContainerRef.current.scrollBy({
-                left: -280, // Adjust based on card width (e.g., 280px for lg screens)
+                left: -280, // Adjust based on card width
                 behavior: 'smooth',
             });
         }
