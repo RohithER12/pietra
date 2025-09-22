@@ -1,3 +1,5 @@
+// 404 page
+
 import { useNavigate } from "react-router";
 import { ArrowLeft } from "lucide-react";
 
