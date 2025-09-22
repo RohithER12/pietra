@@ -89,7 +89,7 @@ export default function ComparisonPage() {
                                 <td className="p-2 border-t border-gray-200 font-medium">{char}</td>
                                 {selected.map((product) => {
                                     // Use category to get the value from comparisonData
-                                    const row = comparisonData.data[product.category];
+                                    const row = comparisonData.data[product.category as keyof typeof comparisonData.data];
                                     return (
                                         <td key={product.id} className="p-2 border-t border-gray-200 text-center font-light">{row ? row[idx] : '-'}</td>
                                     );

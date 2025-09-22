@@ -17,7 +17,7 @@ export default function ProductDetailsPage() {
 
     // Find product existence (for marble/terrazzo: direct, for quartz: in series)
     let found = false;
-    found = !!productsData[category]?.series[series]?.products?.includes(productId!);
+    found = !!(productsData as any)[category]?.series[series]?.products?.includes(productId!);
 
     if (!found) {
         return <NotFoundPage />;
@@ -28,8 +28,7 @@ export default function ProductDetailsPage() {
 
     // Get comparison data
     const characteristics: string[] = comparisonData.characteristics;
-    const comparisonRow: string[] | undefined = comparisonData.data[category];
-
+    const comparisonRow: string[] | undefined = comparisonData.data[category as keyof typeof comparisonData.data];
 
     return (
         <div className="w-full flex flex-col md:flex-row items-center md:items-start gap-8 px-4 sm:px-6 lg:px-8 py-10 max-w-7xl mx-auto pt-28">
