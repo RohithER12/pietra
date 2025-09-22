@@ -81,7 +81,7 @@ export const HeroCarousel = () => {
                             className={`transition-all flex-shrink-0 h-full min-w-[200px] md:flex-1 px-4 py-2 text-center font-playfair text-base md:text-lg  ${currentSlide === idx ? 'bg-white/30 text-white font-bold shadow-lg' : 'text-white/80 hover:bg-white/10'}`}
                             style={{backdropFilter: 'blur(8px)', borderRadius: 0}}
                         >
-                            <div className="truncate w-full ">{slide.title}</div>
+                            <div className="truncate w-full font-playfair-italic-400">{slide.title}</div>
                             {/* Progress bar for active */}
                             {currentSlide === idx && (
                                 <div className="mt-2 h-1 w-full bg-white/30 overflow-hidden">
