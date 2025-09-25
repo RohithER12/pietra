@@ -56,7 +56,7 @@ export default function ProductDetailsPage() {
                 <p className="text-xs text-gray-500 italic" >
                     Click the product image to view it in detail.
                 </p>
-                <h5 className="text-xl font-extrabold text-foreground mb-2 capitalize font-playfair ">{productId?.replace(/_/g, " ")}</h5>
+                <h5 className="text-xl lg:text-3xl font-medium text-foreground mb-2 capitalize ">{productId?.replace(/_/g, " ")}</h5>
                 {/* Slab size and Thickness */}
                 <div className="flex flex-col gap-2 sm:gap-6 text-base font-light text-foreground/80 mb-2">
                     <div>
