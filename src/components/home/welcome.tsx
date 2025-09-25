@@ -5,7 +5,7 @@ export const Welcome = () => {
     return <section className="w-full py-24 flex justify-center bg-white">
         <div className="max-w-4xl px-4 text-center space-y-8">
             <h2 className="text-3xl md:text-4xl font-light font-playfair mb-14 leading-[2.25]">
-                Welcome to Pietra Surfaces<br />
+                Welcome to Breta Surfaces<br />
                 Where Luxury Meets Design
             </h2>
 

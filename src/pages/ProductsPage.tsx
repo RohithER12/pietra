@@ -71,7 +71,7 @@ export default function ProductsPage() {
         <div className="w-full flex flex-col items-center px-4 sm:px-6 lg:px-8 py-10">
 
             {/* Category Selector */}
-            <div className="w-full max-w-7xl mb-16 mt-20 font-amsterdam-one">
+            <div className="w-full max-w-7xl mb-16 mt-20">
                 <div className="flex flex-row gap-3 sm:gap-6 items-center justify-center px-4">
                     {categories.map((cat) => (
                         <div
