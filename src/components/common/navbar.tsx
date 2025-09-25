@@ -36,7 +36,7 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className={`fixed z-50 w-full transition-colors duration-600 shadow border-b border-white ${navTheme === "white" ? "navbar-transition" : "bg-foreground/25 backdrop-blur-xs hover:bg-white text-white hover:text-foreground"}`}>
+            <nav className={`fixed z-50 w-full transition-colors duration-600 shadow border-b border-white ${navTheme === "white" ? "navbar-transition" : "bg-black lg:bg-foreground/25 lg:backdrop-blur-xs hover:bg-white text-white hover:text-foreground"}`}>
                 <div className="flex items-center justify-between h-20 px-4 md:px-8">
                     {/* Left: Nav Links (Desktop) */}
                     <div className="hidden md:flex w-1/3 justify-start space-x-6 font-amsterdam-one animate-in fade-in duration-400 font-medium">
