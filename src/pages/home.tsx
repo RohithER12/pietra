@@ -8,7 +8,7 @@ import { Discover } from '../components/home/discover';
 
 export const Home = () => {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col overflow-hidden">
             <HeroCarousel />
             
             <Welcome />
