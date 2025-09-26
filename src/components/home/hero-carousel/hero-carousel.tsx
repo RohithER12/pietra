@@ -29,7 +29,7 @@ export const HeroCarousel = () => {
                     <h1 className="text-2xl md:text-6xl lg:text-7xl font-bold mb-6 font-playfair">
                         Modern Luxury Living
                     </h1>
-                    <p className="text-base md:text-2xl mb-8 opacity-90">
+                    <p className="text-base font-light md:text-2xl mb-8 opacity-90 md:pt-7 lg:pt-10">
                         Transform your space with our exceptional stone craftsmanship
                     </p>
                     <button className="bg-white/20 backdrop-blur-md border border-white/30 text-white px-5 lg:px-8 py-3 lg:py-4 text-sm lg:text-lg font-semibold hover:bg-white/30 transition-all duration-300">
