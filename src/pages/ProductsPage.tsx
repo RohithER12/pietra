@@ -33,17 +33,17 @@ export default function ProductsPage() {
         {
             title: "quartz",
             description: "Engineered perfection with consistent designs",
-            image: "public/products/quartz/TOURBILLION SERIES/VINTARO/close.png",
+            image: "/products/quartz/TOURBILLION SERIES/VINTARO/close.png",
         },
         {
             title: 'terrazzo',
             description: "Contemporary style with timeless appeal",
-            image: "/public/products/terrazzo/TERRAZO REGALE SERIES/SILVERA EMERALD/close.png",
+            image: "/products/terrazzo/TERRAZO REGALE SERIES/SILVERA EMERALD/close.png",
         },
         {
             title: 'marble',
             description: "Natural elegance with unique patterns",
-            image: "public/products/marble/CARTIER SERIES/SILKEN GREY/close.png",
+            image: "/products/marble/CARTIER SERIES/SILKEN GREY/close.png",
         },
     ];
 
