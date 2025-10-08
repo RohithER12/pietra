@@ -27,8 +27,13 @@
     /* Path mapping */
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
-    }
+
+      "@/*": ["src/*"]
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+
   },
   "include": ["src"]
 }

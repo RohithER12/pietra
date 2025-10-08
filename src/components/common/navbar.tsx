@@ -41,13 +41,13 @@ export const Navbar = () => {
                     {/* Left: Nav Links (Desktop) */}
                     <div className="hidden md:flex w-1/3 justify-start space-x-6 animate-in fade-in duration-400 font-medium">
                         <Link to="/" className="hover:text-primary transition-colors ">
-                            home
+                            Home
                         </Link>
                         <Link to="/about" className="hover:text-primary transition-colors">
-                            about
+                            About
                         </Link>
                         <Link to="/products" className="hover:text-primary transition-colors">
-                            products
+                            Products
                         </Link>
                         {/* <Link to="/contact" className="hover:text-primary transition-colors">
                             contact
@@ -63,7 +63,7 @@ export const Navbar = () => {
                                 Brēta
                             </p>
                             <p className="ml-2 text-base font-semibold font-sans translate-x-3">
-                                by pietra
+                                surfaces
                             </p>
                         </Link>
                     </div>
