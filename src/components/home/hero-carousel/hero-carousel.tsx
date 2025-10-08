@@ -8,9 +8,9 @@ export const HeroCarousel = () => {
             {/* Video Background */}
             <div className="absolute inset-0 w-full h-full">
                 <iframe
-                    src="https://player.cloudinary.com/embed/?cloud_name=dzdd3tw0y&public_id=Ultra_Luxury_Modern_House_Tour_Drone_Cinematic_Walkthrough_in_8K_UHD_-_Limitless_Drive_1080p_h264_youtube_kkpdh1&profile=cld-default&autoplay=true&loop=true&muted=true&controls=false"
+                    src="https://player.cloudinary.com/embed/?cloud_name=dzdd3tw0y&public_id=Ultra_Luxury_Modern_House_Tour___Drone_Cinematic_Walkthrough_in_8K_UHD_2K_HD_cmu4lz&profile=cld-default&autoplay=true&loop=true&muted=true&controls=false"
                     className="w-full h-full object-cover"
-                    style={{ 
+                    style={{
                         border: 'none',
                         width: '100%',
                         height: '100%',
