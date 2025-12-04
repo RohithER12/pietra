@@ -1,6 +1,7 @@
 import { useParams, useSearchParams } from "react-router";
 import productsData from "../data/products.json";
 import comparisonData from "../data/comparison.json";
+import exploreLinks from "../data/exploreLinks.json";
 import { getProductImagePath } from "../utils/getProductImagePath";
 import { LucideLayers, LucideRuler, LucideArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router";
@@ -30,17 +31,29 @@ export default function ProductDetailsPage() {
     const characteristics: string[] = comparisonData.characteristics;
     const comparisonRow: string[] | undefined = comparisonData.data[category as keyof typeof comparisonData.data];
 
+    const exploreUrl = exploreLinks?.[category]?.[series]?.[productId] || null;
+
     return (
         <div className="w-full flex flex-col md:flex-row items-center md:items-start gap-8 px-4 sm:px-6 lg:px-8 py-10 max-w-7xl mx-auto pt-28">
             {/* Image */}
-            <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-end">
                 <Zoom>
                     <img
                         src={image}
                         alt={productId}
                         className="shadow-lg max-w-xs w-full h-auto object-cover aspect-[3/4] bg-white border border-gray-200 cursor-zoom-in"
                     />
+                    {exploreUrl && (
+                        <button
+                            onClick={() => window.open(exploreUrl, "_blank")}
+                            className="border shadow-lg w-full flex justify-center text-black hover:text-white hover:bg-black cursor-pointer py-3 mt-5"
+                        >
+                            <p className="text-sm font-medium">Explore</p>
+                        </button>
+                    )}
+
                 </Zoom>
+
             </div>
             {/* Details */}
             <div className="w-full md:w-1/2 flex flex-col gap-6">

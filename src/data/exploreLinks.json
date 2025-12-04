@@ -1,0 +1,128 @@
+{
+  "marble": {
+    "LINEN SERIES": {
+      "LUSTRA IVORY": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWE7KBD9S",
+      "LUSTRA BEIGE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWDYVJ3EC",
+      "CEMENTA LUX": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWDXYEDBY"
+    },
+    "BIANCO SERIES": {
+      "ALPINE PEARL": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWDVT2689",
+      "BIANCO HALO": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWDXUCS0M"
+    },
+    "CARTIER SERIES": {
+      "VINTESSA BEIGE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWE6X99OV",
+      "VELORA MIST": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWDPWW0AE",
+      "SAHARA BEIGE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWE73YBCP",
+      "ROYAL SMOKE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWDQXCRWH",
+      "SILKEN GREY": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWDTVM44F"
+    },
+    "LUX CARTIER SERIES": {
+      "ARCTIC BLANK": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWDWDF9M2",
+      "FROST WHALE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWDQ90MCM"
+    }
+  },
+
+  "terrazzo": {
+    "TERRAZO ELEGANTA SERIES": {
+      "FROSTELLE": "https://example.com/frostelle",
+      "CIMENTIQUE": "https://example.com/cimentique",
+      "ELEGENTE BIANCO": "https://example.com/elegente-bianco"
+    },
+    "TERRAZO LUXIA SERIES": {
+      "SNOWCRETE": "https://example.com/snowcrete",
+      "CARAMEL GRAIN": "https://example.com/caramel-grain"
+    },
+    "TERRAZO REGALE SERIES": {
+      "MARVELLA": "https://example.com/marvella",
+      "PETRALUX": "https://example.com/petralux",
+      "SILVERA EMERALD": "https://example.com/silvera-emerald"
+    },
+    "HARSBURG SERIES": {
+      "ALMOND SHELL": "https://example.com/almond-shell",
+      "DESERT HAZEL": "https://example.com/desert-hazel",
+      "EMBER BRONZE": "https://example.com/ember-bronze",
+      "FROSTED BISCOTTI": "https://example.com/frosted-biscotti",
+      "MOONSTONE": "https://example.com/moonstone",
+      "SUNMETAL": "https://example.com/sunmetal",
+      "VESPARO GREY": "https://example.com/vesparo-grey"
+    }
+  },
+
+  "quartz": {
+    "CENTODEICI SERIES": {
+      "COCOA FOSSIL": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34M4E62A",
+      "URBAN LUX": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL35TJBVCV",
+      "FROSTED SEAL": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34DB56ML",
+      "ARCTIC SUN": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34KGJBVP",
+      "CRYSTON MARBLE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34GQ4G5H",
+      "STELLAR MARBLE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL35UHWSMK",
+      "DESERT BLOOM": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34DT34LE",
+      "IMPERIAL FLAME": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL360PT4T1",
+      "MISTIC SMOKE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL362K0VBY",
+      "OCEAN NIGHT": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL35XURA23",
+      "OCEAN MIST": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL362PM0VM",
+      "PEARL DRIFT": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL361V0KDN"
+    },
+
+    "VANQUISH SERIES": {
+      "REGAL DUNE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34QSD5JN",
+      "IVORY STORM": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34UNLMVB",
+      "OBSIDIAN VIEN": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34OJS4K7",
+      "SNOW MUSE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL353CC488",
+      "RAVEN MIST": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34MHHJ0D",
+      "VELVET AURA": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL3496V55K",
+      "OBSIDIAN WAVE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34NVXBC0",
+      "TUSCAN DRIFT": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL35777SI2",
+      "SILVER CLOUD": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34PPPWYP"
+    },
+
+    "BOLIDE SERIES": {
+      "SANDY COSMOS": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL361FKBW3",
+      "STARRY NIGHT": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL361IIOR0",
+      "NEBULA SHADOW": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL362GJ6HK",
+      "COSMIC FROST": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34MF1X2R"
+    },
+
+    "MISTRAL SERIES": {
+      "ARCTIC SHARD": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34I8P3OY",
+      "VANNILA GLAZE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL35T46NYB"
+    },
+
+    "LUMINAX SERIES": {
+      "DYNASTY VIEN": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34EFF3RS",
+      "EMARALD REIGN": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKVR1BM86Q",
+      "HEAVENLY GLOW": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL33962837",
+      "IMPERIAL WAVE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34UNLMVB",
+      "SOLAR FAME": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL3334W1J0",
+      "VOLCANIQUE GOLD": "https://example.com/volcanique-gold"
+    },
+
+    "DIVO SERIES": {
+      "STEAL SPARK": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL35SD9AQX",
+      "INDUSTRIAL ASH": "https://example.com/industrial-ash",
+      "URBAN MOCHA": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL361U6FJX",
+      "MIDNIGHT STONE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL35XXNJCD"
+    },
+
+    "TOURBILLION SERIES": {
+      "SUNCRUST": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL353YIBKD",
+      "GERY MONARCH": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34TC9HB6",
+      "AMBER VIEN": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL335SFRJ3",
+      "ASHEN HORIZON": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL32Y9J220",
+      "GOLDEN HAVEN": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL338VH6T0",
+      "COCOA TERRAIN": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL33C5FSIV",
+      "LORENZIA": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34UTGK2L",
+      "FOGCREST": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL33CY35CN",
+      "FROST HALO": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34DBGCTX",
+      "LUNARA": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34UCCK8G",
+      "AURIC EMBER": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL330LDOID",
+      "SKY VEIL": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34RISPA0",
+      "EMERALD VALOR": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL33DQONAP",
+      "SIERRA GLOW": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL354DQC5B",
+      "MIDNIGHT GROVE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34ORGNMI",
+      "ATTICA MIRAGE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL331AKEHL",
+      "SAVANNAH EMBER": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34RJHB62",
+      "VINTARO": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL349M8BM8"
+    }
+  }
+}
