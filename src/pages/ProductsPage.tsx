@@ -31,17 +31,17 @@ export default function ProductsPage() {
 
     const categories = [
         {
-            title: "quartz",
+            title: "Quartz",
             description: "Engineered perfection with consistent designs",
             image: "/products/quartz/TOURBILLION SERIES/VINTARO/close.png",
         },
         {
-            title: 'terrazzo',
+            title: 'Terrazzo',
             description: "Contemporary style with timeless appeal",
             image: "/products/terrazzo/TERRAZO REGALE SERIES/SILVERA EMERALD/close.png",
         },
         {
-            title: 'marble',
+            title: 'Marble',
             description: "Natural elegance with unique patterns",
             image: "/products/marble/CARTIER SERIES/SILKEN GREY/close.png",
         },
