@@ -48,7 +48,7 @@ export default function ProductDetailsPage() {
                             onClick={() => window.open(exploreUrl, "_blank")}
                             className="border shadow-lg w-full flex justify-center text-black hover:text-white hover:bg-black cursor-pointer py-3 mt-5"
                         >
-                            <p className="text-sm font-medium">Explore</p>
+                            <p className="text-sm font-medium">View in 360°</p>
                         </button>
                     )}
 
