@@ -126,7 +126,9 @@
                 "path": "public/products/quartz/MISTRAL SERIES",
                 "products": [
                     "ARCTIC SHARD",
-                    "VANNILA GLAZE"
+                    "VANNILA GLAZE",
+                    "ARTISAN BEIGE",
+                    "ARTISAN WOOL"
                 ]
             },
             "LUMINAX SERIES": {
@@ -137,14 +139,14 @@
                     "HEAVENLY GLOW",
                     "IMPERIAL WAVE",
                     "SOLAR FAME",
-                    "VOLCANIQUE GOLD"
+                    "VOLCANIQUE"
                 ]
             },
             "DIVO SERIES": {
                 "path": "public/products/quartz/DIVO SERIES",
                 "products": [
                     "STEAL SPARK",
-                    "INDUSTRIAL ASH",
+                    "CONCREATE ASH",
                     "URBAN MOCHA",
                     "MIDNIGHT STONE"
                 ]

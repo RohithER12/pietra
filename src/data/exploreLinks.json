@@ -41,7 +41,7 @@
       "ALMOND SHELL": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWE49AIQB",
       "DESERT HAZEL": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWDDJPPY3",
       "EMBER BRONZE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWD4GSGL8",
-      "FROSTED BISCOTTI": "https://example.com/frosted-biscotti",
+      "FROSTED BISCOTTI": "https://drive.google.com/file/d/1k_D1hQta27DQDHM7jVaR8Qb0WajI9g2T/view?usp=drive_link",
       "MOONSTONE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKWDHK7JSK",
       "SUNMETAL": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKVRWPJV7U",
       "VESPARO GREY": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKVRPU85R5"
@@ -85,7 +85,9 @@
 
     "MISTRAL SERIES": {
       "ARCTIC SHARD": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34I8P3OY",
-      "VANNILA GLAZE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL35T46NYB"
+      "VANNILA GLAZE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL35T46NYB",
+      "Artisan Beige": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKVR1PX0PI",
+      "Artisan Wool": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOKVR2KU92P"
     },
 
     "LUMINAX SERIES": {
@@ -94,12 +96,12 @@
       "HEAVENLY GLOW": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL33962837",
       "IMPERIAL WAVE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34UNLMVB",
       "SOLAR FAME": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL3334W1J0",
-      "VOLCANIQUE GOLD": "https://example.com/volcanique-gold"
+      "VOLCANIQUE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL331AL2VS"
     },
 
     "DIVO SERIES": {
       "STEAL SPARK": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL35SD9AQX",
-      "INDUSTRIAL ASH": "https://example.com/industrial-ash",
+      "CONCREATE ASH": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL34LHVWYB",
       "URBAN MOCHA": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL361U6FJX",
       "MIDNIGHT STONE": "https://design.aixperia.com/pub/tool/panorama/viewer?obsPicId=3FOL35XXNJCD"
     },

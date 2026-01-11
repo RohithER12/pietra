@@ -168,7 +168,7 @@ export const Card = ({
 
             {/* Content */}
             <div className="p-4">
-                <h3 className="text-base sm:text-xl lowercase font-light text-gray-900">
+                <h3 className="text-base sm:text-xl font-light text-gray-900">
                     {title}
                 </h3>
                 {category && (
