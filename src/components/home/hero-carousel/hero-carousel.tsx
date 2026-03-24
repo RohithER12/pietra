@@ -7,20 +7,20 @@ export const HeroCarousel = () => {
         <div className="relative mt-20 lg:mt-0 h-[230px] md:h-[430px] lg:h-screen overflow-hidden" ref={heroSectionRef}>
             {/* Video Background */}
             <div className="absolute inset-0 w-full h-full">
-                <iframe
-                    src="https://player.cloudinary.com/embed/?cloud_name=dzdd3tw0y&public_id=Ultra_Luxury_Modern_House_Tour___Drone_Cinematic_Walkthrough_in_8K_UHD_2K_HD_cmu4lz&profile=cld-default&autoplay=true&loop=true&muted=true&controls=false"
-                    className="w-full h-full object-cover"
-                    style={{
-                        border: 'none',
-                        width: '100%',
-                        height: '100%',
-                        minWidth: '100%',
-                        minHeight: '100%'
-                    }}
-                    allow="autoplay; encrypted-media"
-                    allowFullScreen
-                    title="Hero Video"
-                />
+                <video
+  src="https://res.cloudinary.com/df8fulsuk/video/upload/v1774322313/YTDown.com_YouTube_LUXURY-INTERIOR-DESIGN-for-spending-the-_Media_NoWyNgAQe34_002_720p_c2lydf.mp4"
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="w-full h-full object-cover"
+  style={{
+    width: '100%',
+    height: '100%',
+    minWidth: '100%',
+    minHeight: '100%'
+  }}
+/>
             </div>
 
             {/* Optional Overlay Content */}
