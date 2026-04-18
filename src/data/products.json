@@ -32,14 +32,15 @@
                 "path": "public/products/marble/LUX CARTIER SERIES",
                 "products": [
                     "ARCTIC BLANK",
-                    "FROST WHALE"
+                    "FROST WHALE",
+                    "Costal blush"
                 ]
             }
         }
     },
     "terrazzo": {
         "id": "granite",
-        "path":"/public/products/terrazo",
+        "path": "/public/products/terrazo",
         "series": {
             "TERRAZO ELEGANTA SERIES": {
                 "path": "public/products/terrazzo/TERRAZO ELEGANTA SERIES",
@@ -53,7 +54,11 @@
                 "path": "public/products/terrazzo/TERRAZO LUXIA SERIES",
                 "products": [
                     "SNOWCRETE",
-                    "CARAMEL GRAIN"
+                    "CARAMEL GRAIN",
+                    "MISTY PEARL",
+                    "CHERRY WISP",
+                    "REGAL GRIT",
+                    "PEASTL FLORA"
                 ]
             },
             "TERRAZO REGALE SERIES": {
@@ -61,7 +66,8 @@
                 "products": [
                     "MARVELLA",
                     "PETRALUX",
-                    "SILVERA EMERALD"
+                    "SILVERA EMERALD",
+                    "PETRALUX MINI"
                 ]
             },
             "HARSBURG SERIES": {
